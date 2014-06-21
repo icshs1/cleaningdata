@@ -37,7 +37,7 @@ colnames(total.data)<-namevalue
 
 ## select only mean & Std variables
 mean_column<-grep("mean()",namevalue) 
-std_column<-grep("stda<-()",namevalue)
+std_column<-grep("std()",namevalue)
 total_column<-c(1,2) ## SubjectID, ActivityID
 total_column<-append(total_column,mean_column)
 total_column<-append(total_column,std_column)
