@@ -26,6 +26,8 @@ This file explains about course project of Getting and Cleaning Data.
 4) tidydata_1st.txt file is a result for step1 ~ step 4.
 
    tidydata_2nd.txt file is a result for step5.
+   
+5) You can refer for variables of tinydata using codebook.md
 
      
    

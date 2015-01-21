@@ -1,5 +1,7 @@
 ## This code is for making tidy data 
 ## from samsung smart phone sensor data for course project
+## It is for couse project of `Getting and Cleaning Data`
+## written by Hyunsik Shim
 
 ## read activity labels
 activity<-read.table("UCI HAR Dataset\\activity_labels.txt")
@@ -56,5 +58,5 @@ namesdata[2]<-"average-ActivityID"
 colnames(aggdata)<-namesdata
 
 ##save first & second tidy data 
-write.table(tidy.data,file="tidydata_1st.txt")
-write.table(aggdata,file="tidydata_2nd.txt")
+write.table(tidy.data,file="tidydata_1st.txt", row.name=FALSE)
+write.table(aggdata,file="tidydata_2nd.txt", row.name=FALSE)
