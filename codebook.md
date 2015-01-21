@@ -1,5 +1,4 @@
 Codebook for course project tidydata_1st.txt and tidydata_2nd.txt
-You can use this codebook for understanding tidydata results.
 ====================================================================
 
 tidydata_1st.txt
@@ -222,4 +221,6 @@ it calculate average values of each column according to SubjectID & AcitivityID.
 [79] "average-fBodyBodyAccJerkMag-std()"      
 [80] "average-fBodyBodyGyroMag-std()"         
 [81] "average-fBodyBodyGyroJerkMag-std()" 
+
 ====================================================================
+You can use this codebook for understanding tidydata results.
