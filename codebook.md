@@ -1,4 +1,5 @@
 Codebook for course project tidydata_1st.txt and tidydata_2nd.txt
+You can use this codebook for understanding tidydata results.
 ====================================================================
 
 tidydata_1st.txt
